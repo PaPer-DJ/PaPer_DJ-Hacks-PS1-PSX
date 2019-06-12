@@ -35,3 +35,9 @@ PCSX Reloaded:
 TOOLS:
 
 * https://hakchi.net/KMFDManic/NESC-SNESC-Modifications/
+
+DOWNLOADS:
+
+ 80 Psx Games in 1 DVD .rar (4.14 GB)
+* https://mega.nz/#!vIgExQYR!gn0DFWOoGQWIuJsmWd1iDDvepI7_Fa0SrX4IrZMS5f8
+
