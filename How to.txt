@@ -1,0 +1,29 @@
+I do all my work in HxD, so try this Hex Editor and see if that helps.
+
+How to setup a new Game.
+
+1. Open, POPS Header.data, Japan Game Licence.data and your game img.
+Now make sure your at the start of your game img.
+
+2. If your game is not Japan, you need to edit the game's Licence data to Japan.
+To do so, just copy all of "Japan Game Licence.data" and add it over the start of your game img/bin.
+Make sure to do "Paste write"
+
+If your game is Japan then you don't need to do this, as its on.
+
+3. Now just open "POPS Header.data" and add it to the start of your IMG/BIN... in the end your game IMG/BIN will be 1MB bigger. Make sure to do "Paste insert".
+
+How to setup the Emu.
+
+1. Use uLE442b_Hacked.elf or ULE442_ev.ELF.
+
+2. Set is like this:
+﻿PP.POPS-00001\
+|-EXECUTE.ELF (In PP.POPS-00001 folder)
+|-EXECUTE.KELF (In PP.POPS-00001 folder but only needed if going to boot by it)
+|-MYDUMP.BIN (In PP.POPS-00001 folder)
+|-disc (In PP.POPS-00001 folder)
+|-disc0 (disc0 is in disc folder and needs to be the original Bishi Bashi Special 3 Demo)
+
+3. Run EXECUTE.ELF or Setup on HDD-OSD as a Game Icon, then run from that.
+
